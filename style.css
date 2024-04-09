@@ -1,0 +1,156 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding : 0;
+}
+header{
+    background-color: #5858cf;
+    height: 50px;
+    width: 100%;
+}
+nav{
+    display: flex;
+    gap: 100px;
+}
+nav .logo{
+    margin: 15px 0 0 10px;
+}
+nav .logo h3{
+  color: #fff;
+  font-size: 17px;
+}
+nav ul{
+    display: flex;
+    margin-left: 50%;
+} 
+nav a{
+    font-size: 16px;
+    color: #ffffff90;
+    text-decoration: none;
+    padding: 10px;
+}
+.fa-brands{
+ color: #ffffffd6;
+ font-size: 20px;
+ margin-right: 10px;
+
+}
+
+/*-------main content-------*/
+
+.main
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.col1{
+  text-align: center;
+  width: 22%;
+}
+.col1 h3{
+    margin: 15px 10px 10px 5px;
+    padding: 10px;
+}
+.col1 h3:hover{
+    background-color: rgba(220, 20, 20, 0.71);
+    color: #fff;
+}
+.col1 li{
+  list-style-type: none;
+  margin: 8px;
+}
+.col1 li a{
+    color: black;
+    text-decoration: none;
+    padding: 4px;
+}
+
+.col2{
+    background-color: #1c53fabc;
+    height: 550px;
+    width: 85%;
+    /*display: flex;*/
+}
+.col2 h2{
+    color: #fff;
+    margin: 20px;
+    font-size: 30px;
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+}
+.box
+{
+    margin-top: 80px;
+    /*border: solid rgba(35, 29, 29, 0.638);*/
+    box-shadow: #08030d76;
+    width: 190px;
+    height: 330px;
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: center;
+    justify-content: center;
+} 
+.box h1{
+    padding-top: 45px;
+    color: #ffffff8d;
+}
+.row1{
+    background-color: hwb(207 28% 52%);
+    height: 132px;
+    width: 190px;
+}
+.row2{
+    background-color: rgba(255, 166, 0, 0.708);
+    height: 132px;
+    width: 190px;
+}
+.row3{
+    background-color: rgba(215, 34, 14, 0.993);
+    height: 132px;
+    width: 190px;
+}
+.row4{
+    background-color: #6e17cc76;
+    height: 132px;
+    width: 190px;
+}
+.cont{
+    background-color: #fff;
+    width: 191px;
+    height: 198px;
+    text-align: center;
+    padding: 0;
+}
+.cont p{
+    padding-top: 20px;
+}
+.cont a{
+    display: block;
+    font-size: 12px;
+}
+#btn1{
+    color: hwb(207 28% 52%);
+    text-decoration: none;
+    padding-top: 42%
+}
+#btn2{
+    color: rgba(255, 166, 0, 0.962);
+    text-decoration: none;
+    padding-top: 42%;
+}
+#btn3{
+    color: rgba(215, 34, 14, 0.993);
+    text-decoration: none;
+    padding-top: 24%;
+}
+ #btn4{
+    color: #6f17ccde;
+    text-decoration: none;
+    padding-top: 24%;
+}
